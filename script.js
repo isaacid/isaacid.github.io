@@ -1,7 +1,7 @@
-const menuIcon = querySelector("menu-icon");
-const navBar = querySelector("navbar");
+const menuIcon = document.querySelector("#menu-icon");
+const navBar = document.querySelector(".navbar");
 
 menuIcon.onclick = () => {
-  menuIcon.classList.toggle('uil uil-multiply');
-  navbar.classList.toggle('active');
+  menuIcon.classList.toggle("uil-multiply");
+  navBar.classList.toggle("active");
 }

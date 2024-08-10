@@ -10,10 +10,10 @@
 }
 
 :root {
-  --bg-color: #080808;
-  --second-bg-color: #001005;
-  --text-color: white;
-  --main-color: #00ff51;
+  --bg-color: #ffffff;
+  --second-bg-color: #4174a7;
+  --text-color: rgb(4, 4, 4);
+  --main-color: #00a2ff;
 }
 
 html {
@@ -34,7 +34,7 @@ body {
   top: 0;
   left: 0;
   padding: 4rem 12%;
-  background: rgba(0, 0, 0, 0.3);
+  background: #03045E;
   backdrop-filter: blur(10px);
   display: flex;
   justify-content: space-between;
@@ -195,14 +195,14 @@ section {
   }
   .navbar {
     position: absolute;
-    top: 100%
+    top: 100%;
     right: 0;
     width: 50%;
     padding: 1rem 3rem;
     background-color: rgba(0,0,0,0.8);
     border-left: 2px solid var(--main-color);
     border-bottom: 2px solid var(--main-color);
-    border-bottom-left-raduis: 2rem;
+    border-bottom-left-radius: 2rem;
     display: none;
   }
   .navbar a{
